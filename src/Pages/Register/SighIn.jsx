@@ -42,7 +42,7 @@ export default function Login() {
         auth
         .signInWithEmailAndPassword(email, password)
         .catch((error) => alert(error.message));
-        setOpenSignIn(false);
+//         setOpenSignIn(false);
       }
     //   history.push('/generalHome')
       if(user){
